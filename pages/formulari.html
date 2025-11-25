@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<header>
+     <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">CFGM SMX | Sistemes microinformatics i xarxes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="../index.html">moduls</a></li>
+              <li class="nav-item"><a class="nav-link" href="../index.html">Galeria</a></li>
+              <li class="nav-item"><a class="nav-link" href="../pages/formulari.html">Contacte</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<body>
+   <form
+  action="https://formspree.io/f/manzdbee"
+  method="POST"
+>   
+    <section id="contacte" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4 fw-bold">Contacta amb nosaltres</h2>
+
+        <form class="mx-auto" style="max-width: 600px;">
+          <div class="mb-3">
+            <label class="form-label">Nom</label>
+            <input type="text" name="text" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Cognoms</label>
+            <input type="text" name="text" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Telefon</label>
+            <input type="number" name="number" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Correu electrònic</label>
+            <input type="email" name="email" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Consulta</label>
+            <textarea class="form-control" name="form-control" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning w-100 fw-bold">Enviar Missatge</button>
+        </form>
+
+      </div>
+    </section> 
+</body>
+</html>
